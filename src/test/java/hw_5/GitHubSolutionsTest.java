@@ -12,7 +12,7 @@ import static com.codeborne.selenide.Selenide.open;
 public class GitHubSolutionsTest {
 
     @BeforeAll
-    static void setUP(){
+    static void setUP() {
 
 //        Configuration.browser = "firefox";
         Configuration.browserSize = "1920x1080";
@@ -21,7 +21,7 @@ public class GitHubSolutionsTest {
     }
 
     @Test
-    void name() {
+    void pageEnterprize() {
         open("https://github.com");
         $(byText("Solutions")).hover();
         $("a[href=\"/enterprise\"]").click();
