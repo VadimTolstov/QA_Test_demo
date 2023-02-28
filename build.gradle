@@ -4,6 +4,10 @@ plugins {
 
 repositories {
     mavenCentral()
+
+    compileJava{
+        options.encoding = 'UTF-8'
+    }
 }
 
 dependencies {
@@ -18,6 +22,7 @@ dependencies {
 tasks.withType(JavaCompile) {
     options.encoding = 'UTF-8'
 }
+
 
 test {
 
