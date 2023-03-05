@@ -26,7 +26,7 @@ public class DragAndDropTest {
     }
 
     //  Failed
-/*    @Test
+    @Test
     void movingActions() {
         open("https://the-internet.herokuapp.com/drag_and_drop");
         actions().clickAndHold($("#column-a")).moveByOffset(250, 0).release().build().perform();
@@ -35,5 +35,5 @@ public class DragAndDropTest {
         sleep(2000);
 
 
-    } */
+    }
 }
