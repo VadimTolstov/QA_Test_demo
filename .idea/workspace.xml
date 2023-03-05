@@ -5,14 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8ca49211-4b62-4967-b6e7-619f44041bba" name="Changes" comment="3l">
-      <change afterPath="$PROJECT_DIR$/src/test/java/hw_6/RegistrationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/hw_6/RegistrationWithPageObjectsTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/hw_6/TestBaes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/hw_6/pages/RegistrationPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/hw_6/pages/components/CalendarComponent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hw_6/pages/components/RegistrationResultsModal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/hw_5/DragAndDropTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hw_5/DragAndDropTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hw_6/RegistrationWithPageObjectsTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hw_6/RegistrationWithPageObjectsTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hw_6/pages/RegistrationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hw_6/pages/RegistrationPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +65,7 @@
       <recent name="hw_6" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.RegistrationTests">
+  <component name="RunManager" selected="Gradle.RegistrationWithPageObjectsTests.fillFormTest">
     <configuration name="As" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.tolstov.As" />
       <module name="QA_Test_demo.main" />
@@ -82,29 +78,6 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
-    </configuration>
-    <configuration name="BestContributorToSelenide" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;github.BestContributorToSelenide&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
     </configuration>
     <configuration name="RegistrationTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -120,6 +93,29 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;hw_6.RegistrationTests&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="RegistrationTests.fillFormTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;hw_6.RegistrationTests.fillFormTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -177,11 +173,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.RegistrationTests" />
-        <item itemvalue="Gradle.RegistrationWithPageObjectsTests" />
         <item itemvalue="Gradle.RegistrationWithPageObjectsTests.fillFormTest" />
+        <item itemvalue="Gradle.RegistrationWithPageObjectsTests" />
+        <item itemvalue="Gradle.RegistrationTests.fillFormTest" />
+        <item itemvalue="Gradle.RegistrationTests" />
         <item itemvalue="Application.As" />
-        <item itemvalue="Gradle.BestContributorToSelenide" />
       </list>
     </recent_temporary>
   </component>
@@ -229,7 +225,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677606372391</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="3l">
+      <created>1678027250754</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1678027250754</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

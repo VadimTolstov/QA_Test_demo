@@ -21,6 +21,10 @@ public class RegistrationWithPageObjectsTests extends TestBaes{
         String userEmail = "Ivanov@google.com";
         String gender = "Female";
         String userPhone = "7878787878";
+        String day = "30";
+        String month = "April";
+        String year = "1988";
+
 
 
 
@@ -31,14 +35,12 @@ public class RegistrationWithPageObjectsTests extends TestBaes{
                 .setLastName(lastName)
                 .setUserEmail(userEmail)
                 .setGender(gender)
-                .setUserPhone(userPhone);
+                .setUserPhone(userPhone)
+                .setBirthData(day,month, year );
 
 
 
-        $("#dateOfBirthInput").click();
-        $(".react-datepicker__month-dropdown-container").$(byText("April")).click();
-        $(".react-datepicker__year-select").selectOption("1988");
-        $(".react-datepicker__day--030:not(.react-datepicker__day--outside-month)").click();
+
         $("#subjectsInput").setValue("English").pressEnter();
 
         $("#hobbiesWrapper").$(byText("Music")).click();
@@ -64,23 +66,29 @@ public class RegistrationWithPageObjectsTests extends TestBaes{
 
         $("#submit").click();
 
-//        $(".modal-title").shouldHave(text("Thanks for submitting the form"));
-//        $("table tbody tr:nth-child(1) td:nth-child(2)").shouldHave(exactText("Алексей Иванович Ivanov"));
-//        $("table tbody tr:nth-child(2) td:nth-child(2)").shouldHave(exactText("Ivanov@google.com"));
-//        $("table tbody tr:nth-child(3) td:nth-child(2)").shouldHave(exactText("Female"));
 
-        $(".modal-dialog").should(appear);
-        $(".modal-content").shouldHave(
-                text("Thanks for submitting the form"),
-                text("Антон Иванович Ivanov"),
-                text("Ivanov@google.com"),
-                text("Female"),
-                text("7878787878"),
-                text("30 April,1988"),
-                text("Music, Reading, Sports"),
-                text("JAVA_20.6_10.jpg"),
-                text("Hello"),
-                text("NCR Delhi")
+        registrationPage.verifyResultsModalAppears()
+                .verifyResult("Student Name", firstName + " " + lastName)
+                .verifyResult("Student Email", userEmail)
+                .verifyResult("Gender", gender)
+                .verifyResult("Mobile", userPhone)
+                .verifyResult("Date of Birth", day+month+","+year)
+                .verifyResult("Subjects", firstName + " " + lastName)
+                .verifyResult("Hobbies", firstName + " " + lastName)
+                .verifyResult("Picture", firstName + " " + lastName)
+                .verifyResult("Address", firstName + " " + lastName)
+                .verifyResult("State and City", firstName + " " + lastName);
+
+//                $(".modal-content").shouldHave(
+//                text("Антон Иванович Ivanov"),
+//                text("Ivanov@google.com"),
+//                text("Female"),
+//                text("7878787878"),
+//                text("30 April,1988"),
+//                text("Music, Reading, Sports"),
+//                text("JAVA_20.6_10.jpg"),
+//                text("Hello"),
+//                text("NCR Delhi")
         );
 //        $(".modal-content").shouldHave(text("Алексей Иванович Ivanov"));
 //        $(".modal-content").shouldHave(text("Ivanov@google.com"));
