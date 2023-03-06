@@ -3,7 +3,7 @@ package hw_6;
 
 import org.junit.jupiter.api.Test;
 
-public class RegistrationWithPageObjectsTests extends TestBaes {
+public class RegistrationWithPageObjectsTests extends TestBase {
 
     @Test
     void fillFormTest() {

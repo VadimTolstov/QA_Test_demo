@@ -103,8 +103,8 @@ public class RegistrationPage {
 
     }
 
-    public RegistrationPage setAddress(String adress) {
-        $("#currentAddress").setValue(adress);
+    public RegistrationPage setAddress(String address) {
+        $("#currentAddress").setValue(address);
 
         return this;
 

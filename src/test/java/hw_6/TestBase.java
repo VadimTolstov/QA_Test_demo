@@ -4,7 +4,7 @@ import com.codeborne.selenide.Configuration;
 import hw_6.pages.RegistrationPage;
 import org.junit.jupiter.api.BeforeAll;
 
-public class TestBaes {
+public class TestBase {
     RegistrationPage registrationPage = new RegistrationPage();
 
     @BeforeAll
