@@ -62,7 +62,7 @@
       <recent name="hw_6" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.RegistrationWithPageObjectsTests.fillFormTest">
+  <component name="RunManager" selected="Gradle.RegistrationWithPageObjectsTests">
     <configuration name="As" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.tolstov.As" />
       <module name="QA_Test_demo.main" />
@@ -170,8 +170,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.RegistrationWithPageObjectsTests.fillFormTest" />
         <item itemvalue="Gradle.RegistrationWithPageObjectsTests" />
+        <item itemvalue="Gradle.RegistrationWithPageObjectsTests.fillFormTest" />
         <item itemvalue="Gradle.RegistrationTests" />
         <item itemvalue="Gradle.RegistrationTests.fillFormTest" />
         <item itemvalue="Application.As" />
