@@ -12,7 +12,7 @@ public class RegistrationResultsModal {
         $(".modal-content").shouldHave(text("Thanks for submitting the form"));
     }
 
-    public void verifyResult(String key, String vale){
+    public void verifyResult(String key, String vale) {
         $(".table-responsive").$(byText(key)).parent().shouldHave(text(vale));
     }
 

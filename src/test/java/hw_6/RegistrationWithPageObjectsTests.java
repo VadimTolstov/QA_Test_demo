@@ -1,18 +1,9 @@
 package hw_6;
 
 
-import com.codeborne.selenide.Configuration;
-import hw_6.pages.RegistrationPage;
-import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
-import static com.codeborne.selenide.Condition.appear;
-import static com.codeborne.selenide.Condition.text;
-import static com.codeborne.selenide.Selectors.byText;
-import static com.codeborne.selenide.Selenide.*;
-
-public class RegistrationWithPageObjectsTests extends TestBaes{
-
+public class RegistrationWithPageObjectsTests extends TestBaes {
 
     @Test
     void fillFormTest() {
@@ -24,8 +15,14 @@ public class RegistrationWithPageObjectsTests extends TestBaes{
         String day = "30";
         String month = "April";
         String year = "1988";
-
-
+        String subjects = "English";
+        String hobby1 = "Music";
+        String hobby2 = "Reading";
+        String hobby3 = "Sports";
+        String filePath = "pictures/JAVA_20.6_10.jpg";
+        String address = "Vologda";
+        String state = "NCR";
+        String city = "Delhi";
 
 
         registrationPage.openPage()
@@ -36,35 +33,16 @@ public class RegistrationWithPageObjectsTests extends TestBaes{
                 .setUserEmail(userEmail)
                 .setGender(gender)
                 .setUserPhone(userPhone)
-                .setBirthData(day,month, year );
-
-
-
-
-        $("#subjectsInput").setValue("English").pressEnter();
-
-        $("#hobbiesWrapper").$(byText("Music")).click();
-        $("#hobbiesWrapper").$(byText("Reading")).click();
-        $("#hobbiesWrapper").$(byText("Sports")).click();
-
-
-//        $("label[for=hobbies-checkbox-1]").click();
-//        $("label[for=hobbies-checkbox-2]").click();
-//        $("label[for=hobbies-checkbox-3]").click();
-
-        $("#uploadPicture").uploadFromClasspath("pictures/JAVA_20.6_10.jpg");
-//      $("#uploadPicture").uploadFile(new File("src/test/resources/pictures/JAVA_20.6_10.jpg"));
-//      File file = new File("src/test/resources/pictures/JAVA_20.6_10.jpg");
-//      $("#uploadPicture").uploadFile(file);
-
-
-        $("#currentAddress").setValue("Hello");
-        $("#state").click();
-        $("#stateCity-wrapper").$(byText("NCR")).click();
-        $("#city").click();
-        $("#stateCity-wrapper").$(byText("Delhi")).click();
-
-        $("#submit").click();
+                .setBirthData(day, month, year)
+                .setSubjects(subjects)
+                .setHobby(hobby1)
+                .setHobby(hobby2)
+                .setHobby(hobby3)
+                .setUploadImage(filePath)
+                .setAddress(address)
+                .setState(state)
+                .setCity(city)
+                .registerForm();
 
 
         registrationPage.verifyResultsModalAppears()
@@ -72,37 +50,12 @@ public class RegistrationWithPageObjectsTests extends TestBaes{
                 .verifyResult("Student Email", userEmail)
                 .verifyResult("Gender", gender)
                 .verifyResult("Mobile", userPhone)
-                .verifyResult("Date of Birth", day+month+","+year)
-                .verifyResult("Subjects", firstName + " " + lastName)
-                .verifyResult("Hobbies", firstName + " " + lastName)
-                .verifyResult("Picture", firstName + " " + lastName)
-                .verifyResult("Address", firstName + " " + lastName)
-                .verifyResult("State and City", firstName + " " + lastName);
-
-//                $(".modal-content").shouldHave(
-//                text("Антон Иванович Ivanov"),
-//                text("Ivanov@google.com"),
-//                text("Female"),
-//                text("7878787878"),
-//                text("30 April,1988"),
-//                text("Music, Reading, Sports"),
-//                text("JAVA_20.6_10.jpg"),
-//                text("Hello"),
-//                text("NCR Delhi")
-        );
-//        $(".modal-content").shouldHave(text("Алексей Иванович Ivanov"));
-//        $(".modal-content").shouldHave(text("Ivanov@google.com"));
-//        $(".modal-content").shouldHave(text("Female"));
-//        $(".modal-content").shouldHave(text("7878787878"));
-//        $(".modal-content").shouldHave(text("25 May,1988"));
-//        $(".modal-content").shouldHave(text("Music, Reading, Sports"));
-//        $(".modal-content").shouldHave(text("JAVA_20.6_10.jpg"));
-//        $(".modal-content").shouldHave(text("Hello"));
-//        $(".modal-content").shouldHave(text("NCR Delhi"));
-
-        $("#closeLargeModal").click();
-
-        // sleep(2000);
+                .verifyResult("Date of Birth", day +" "+ month + "," + year)
+                .verifyResult("Subjects", subjects)
+                .verifyResult("Hobbies", hobby1 + ", " + hobby2 + ", " + hobby3)
+                .verifyResult("Picture", filePath.substring(9))
+                .verifyResult("Address", address)
+                .verifyResult("State and City", state + " " + city);
 
     }
 }

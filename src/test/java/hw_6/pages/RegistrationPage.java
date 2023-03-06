@@ -82,6 +82,55 @@ public class RegistrationPage {
 
     }
 
+    public RegistrationPage setSubjects(String subjects) {
+        $("#subjectsInput").setValue(subjects).pressEnter();
+
+        return this;
+
+    }
+
+    public RegistrationPage setHobby(String hobby) {
+        $("#hobbiesWrapper").$(byText(hobby)).click();
+
+        return this;
+
+    }
+
+    public RegistrationPage setUploadImage(String filePath) {
+        $("#uploadPicture").uploadFromClasspath(filePath);
+
+        return this;
+
+    }
+
+    public RegistrationPage setAddress(String adress) {
+        $("#currentAddress").setValue(adress);
+
+        return this;
+
+    }
+
+    public RegistrationPage setState(String state) {
+        $("#state").click();
+        $("#stateCity-wrapper").$(byText(state)).click();
+
+        return this;
+
+    }
+
+    public RegistrationPage setCity(String city) {
+        $("#city").click();
+        $("#stateCity-wrapper").$(byText(city)).click();
+
+        return this;
+
+    }
+
+    public void registerForm() {
+        $("#submit").click();
+
+    }
+
     public RegistrationPage verifyResultsModalAppears() {
         registrationResultsModal.verifyModalAppears();
 
