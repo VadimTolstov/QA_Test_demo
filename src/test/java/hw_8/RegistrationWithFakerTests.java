@@ -1,17 +1,23 @@
 package hw_8;
 
 
+import hw_8.pages.RegistrationPageFaker;
+import hw_8.pages.components.RegistrationResultsModal;
+import hw_8.utils.DataGenerator;
+import hw_8.utils.StudentData;
 import org.junit.jupiter.api.Test;
 
 public class RegistrationWithFakerTests extends TestBaseFaker {
-
+    RegistrationPageFaker registrationPage = new RegistrationPageFaker();
+    StudentData studentData = DataGenerator.getRandomStudent();
+    RegistrationResultsModal registrationResultsModal = new RegistrationResultsModal();
 
     @Test
     void fillFormTest() {
 
         registrationPage.openPage()
-                .deleteBanner()
-                .deleteFooter()
+                .removeBanner()
+                .removeFooter()
                 .setFirstName(studentData.getFirstName())
                 .setLastName(studentData.getLastName())
                 .setUserEmail(studentData.getUserEmail())
@@ -29,7 +35,7 @@ public class RegistrationWithFakerTests extends TestBaseFaker {
                 .registerForm();
 
 
-        registrationPage.verifyResultsModalAppears()
+        registrationResultsModal.verifyModalAppears()
                 .verifyResult("Student Name", studentData.getFirstName() + " " + studentData.getLastName())
                 .verifyResult("Student Email", studentData.getUserEmail())
                 .verifyResult("Gender", studentData.getGender())
@@ -37,7 +43,8 @@ public class RegistrationWithFakerTests extends TestBaseFaker {
                 .verifyResult("Date of Birth", studentData.getDay() + " " + studentData.getMonth() + "," + studentData.getYear())
                 .verifyResult("Subjects", studentData.getSubject())
                 .verifyResult("Hobbies", studentData.getHobby())
-                .verifyResult("Picture", studentData.getFilePath().substring(9))
+                .verifyResult("Picture", studentData.getFilePath()
+                        .substring(studentData.getFilePath().lastIndexOf("/") + 1))
                 .verifyResult("Address", studentData.getAddress())
                 .verifyResult("State and City", studentData.getState() + " " + studentData.getCity());
 

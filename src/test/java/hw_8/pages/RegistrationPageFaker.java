@@ -2,7 +2,6 @@ package hw_8.pages;
 
 import com.codeborne.selenide.SelenideElement;
 import hw_8.pages.components.CalendarComponent;
-import hw_8.pages.components.RegistrationResultsModal;
 
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selectors.byText;
@@ -11,8 +10,12 @@ import static com.codeborne.selenide.Selenide.*;
 public class RegistrationPageFaker {
 
     CalendarComponent calendarComponent = new CalendarComponent();
-    RegistrationResultsModal registrationResultsModal = new RegistrationResultsModal();
-    private final String TITLE_TEXT = "Student Registration Form";
+
+    private final String TITLE_TEXT = "Student Registration Form",
+            REMOVE_BANNER_INPUT = "$('#fixedban').remove()",
+            REMOVE_FOOTER_INPUT = "$('footer').remove()",
+            ADDRESS_REGISTRATION_FORM = "/automation-practice-form";
+
     private final SelenideElement
             firstNameInput = $("#firstName"),
             lastNameInput = $("[id=lastName]"),
@@ -28,23 +31,24 @@ public class RegistrationPageFaker {
             stateInput = $("#stateCity-wrapper"),
             cityClickInput = $("#city"),
             cityInput = $("#stateCity-wrapper"),
-            registerFormClickInput = $("#submit");
+            registerFormClickInput = $("#submit"),
+            titleTextInput = $(".practice-form-wrapper");
 
     public RegistrationPageFaker openPage() {
-        open("/automation-practice-form");
-        $(".practice-form-wrapper").shouldHave(text(TITLE_TEXT));
+        open(ADDRESS_REGISTRATION_FORM);
+        titleTextInput.shouldHave(text(TITLE_TEXT));
 
         return this;
     }
 
-    public RegistrationPageFaker deleteBanner() {
-        executeJavaScript("$('#fixedban').remove()");
+    public RegistrationPageFaker removeBanner() {
+        executeJavaScript(REMOVE_BANNER_INPUT);
 
         return this;
     }
 
-    public RegistrationPageFaker deleteFooter() {
-        executeJavaScript("$('footer').remove()");
+    public RegistrationPageFaker removeFooter() {
+        executeJavaScript(REMOVE_FOOTER_INPUT);
 
         return this;
     }
@@ -141,15 +145,4 @@ public class RegistrationPageFaker {
 
     }
 
-    public RegistrationPageFaker verifyResultsModalAppears() {
-        registrationResultsModal.verifyModalAppears();
-
-        return this;
-    }
-
-    public RegistrationPageFaker verifyResult(String key, String vale) {
-        registrationResultsModal.verifyResult(key, vale);
-
-        return this;
-    }
 }

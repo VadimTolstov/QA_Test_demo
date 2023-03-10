@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8ca49211-4b62-4967-b6e7-619f44041bba" name="Changes" comment="HW_8">
+    <list default="true" id="8ca49211-4b62-4967-b6e7-619f44041bba" name="Changes" comment="HW_8`">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/hw_8/RegistrationWithFakerTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hw_8/RegistrationWithFakerTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/hw_8/TestBaseFaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hw_8/TestBaseFaker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/hw_8/pages/RegistrationPageFaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hw_8/pages/RegistrationPageFaker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hw_8/pages/components/RegistrationResultsModal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hw_8/pages/components/RegistrationResultsModal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -261,7 +262,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678433226081</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="HW_8`">
+      <created>1678434855365</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1678434855365</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -281,7 +289,8 @@
     <MESSAGE value="3l" />
     <MESSAGE value="4l" />
     <MESSAGE value="HW_8" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW_8" />
+    <MESSAGE value="HW_8`" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW_8`" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
