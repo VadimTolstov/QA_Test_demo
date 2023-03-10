@@ -4,8 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8ca49211-4b62-4967-b6e7-619f44041bba" name="Changes" comment="3l">
+    <list default="true" id="8ca49211-4b62-4967-b6e7-619f44041bba" name="Changes" comment="4l">
+      <change afterPath="$PROJECT_DIR$/src/test/java/hw_8/RegistrationWithFakerTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hw_8/TestBaseFaker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hw_8/pages/RegistrationPageFaker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hw_8/pages/components/CalendarComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hw_8/pages/components/RegistrationResultsModal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hw_8/utils/DataGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hw_8/utils/RandomUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hw_8/utils/StudentData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hw_6/RegistrationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hw_7/RegistrationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hw_6/RegistrationWithPageObjectsTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hw_7/RegistrationWithPageObjectsTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hw_6/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hw_7/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hw_6/pages/RegistrationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hw_7/pages/RegistrationPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hw_6/pages/components/CalendarComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hw_7/pages/components/CalendarComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hw_6/pages/components/RegistrationResultsModal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hw_7/pages/components/RegistrationResultsModal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,21 +70,25 @@
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.17&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.editor&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;copyright&quot;
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\program\IntelliJ IDEA Community Edition 2022.2.2\Proect\QA_Test_demo\src\test\java\hw_8" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="hw_8" />
       <recent name="hw_6" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.RegistrationWithPageObjectsTests">
-    <configuration name="As" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.tolstov.As" />
-      <module name="QA_Test_demo.main" />
+  <component name="RunManager" selected="Gradle.RegistrationWithFakerTests">
+    <configuration name="DataGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hw_8.utils.DataGenerator" />
+      <module name="QA_Test_demo.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.tolstov.*" />
+          <option name="PATTERN" value="hw_8.utils.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,7 +96,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RegistrationTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="RandomUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hw_8.utils.RandomUtils" />
+      <module name="QA_Test_demo.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hw_8.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegistrationWithFakerTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -89,7 +122,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;hw_6.RegistrationTests&quot;" />
+            <option value="&quot;hw_8.RegistrationWithFakerTests&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -99,7 +132,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="RegistrationTests.fillFormTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="RegistrationWithFakerTests.fillFormTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -112,7 +145,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;hw_6.RegistrationTests.fillFormTest&quot;" />
+            <option value="&quot;hw_8.RegistrationWithFakerTests.fillFormTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -145,36 +178,13 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="RegistrationWithPageObjectsTests.fillFormTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;hw_6.RegistrationWithPageObjectsTests.fillFormTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.RegistrationWithFakerTests" />
+        <item itemvalue="Gradle.RegistrationWithFakerTests.fillFormTest" />
+        <item itemvalue="Application.DataGenerator" />
+        <item itemvalue="Application.RandomUtils" />
         <item itemvalue="Gradle.RegistrationWithPageObjectsTests" />
-        <item itemvalue="Gradle.RegistrationWithPageObjectsTests.fillFormTest" />
-        <item itemvalue="Gradle.RegistrationTests" />
-        <item itemvalue="Gradle.RegistrationTests.fillFormTest" />
-        <item itemvalue="Application.As" />
       </list>
     </recent_temporary>
   </component>
@@ -243,7 +253,21 @@
       <option name="project" value="LOCAL" />
       <updated>1678088689354</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="4l">
+      <created>1678090262170</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1678090262170</updated>
+    </task>
+    <task id="LOCAL-00010" summary="4l">
+      <created>1678090337643</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1678090337643</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -261,7 +285,8 @@
     <MESSAGE value="1l" />
     <MESSAGE value="2l" />
     <MESSAGE value="3l" />
-    <option name="LAST_COMMIT_MESSAGE" value="3l" />
+    <MESSAGE value="4l" />
+    <option name="LAST_COMMIT_MESSAGE" value="4l" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

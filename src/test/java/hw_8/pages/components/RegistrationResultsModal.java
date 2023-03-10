@@ -1,4 +1,4 @@
-package hw_6.pages.components;
+package hw_8.pages.components;
 
 import static com.codeborne.selenide.Condition.appear;
 import static com.codeborne.selenide.Condition.text;

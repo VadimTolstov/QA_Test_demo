@@ -1,4 +1,4 @@
-package hw_6.pages.components;
+package hw_8.pages.components;
 
 import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.$;
@@ -9,6 +9,7 @@ public class CalendarComponent {
 
         $(".react-datepicker__month-dropdown-container").$(byText(month)).click();
         $(".react-datepicker__year-select").selectOption(year);
+        //возможно уже нет надобности в условии, получаем всегда два значения
         if (day.length() == 1) {
             $(".react-datepicker__day--00" + day + ":not(.react-datepicker__day--outside-month)").click();
         } else {

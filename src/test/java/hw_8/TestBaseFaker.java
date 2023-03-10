@@ -1,11 +1,12 @@
-package hw_6;
+package hw_8;
 
 import com.codeborne.selenide.Configuration;
-import hw_6.pages.RegistrationPage;
+import hw_8.pages.RegistrationPageFaker;
 import org.junit.jupiter.api.BeforeAll;
 
-public class TestBase {
-    RegistrationPage registrationPage = new RegistrationPage();
+public class TestBaseFaker {
+    RegistrationPageFaker registrationPage = new RegistrationPageFaker();
+
 
     @BeforeAll
     static void beforeAll() {

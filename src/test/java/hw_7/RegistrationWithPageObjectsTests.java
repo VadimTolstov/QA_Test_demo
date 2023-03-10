@@ -1,4 +1,4 @@
-package hw_6;
+package hw_7;
 
 
 import org.junit.jupiter.api.Test;
