@@ -1,8 +1,6 @@
 package hw_8;
 
 
-import hw_8.utils.DataGenerator;
-import hw_8.utils.StudentData;
 import org.junit.jupiter.api.Test;
 
 public class RegistrationWithFakerTests extends TestBaseFaker {
@@ -10,8 +8,6 @@ public class RegistrationWithFakerTests extends TestBaseFaker {
 
     @Test
     void fillFormTest() {
-
-        StudentData studentData = DataGenerator.getRandomStudent();
 
         registrationPage.openPage()
                 .deleteBanner()

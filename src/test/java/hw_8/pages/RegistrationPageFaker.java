@@ -17,7 +17,18 @@ public class RegistrationPageFaker {
             firstNameInput = $("#firstName"),
             lastNameInput = $("[id=lastName]"),
             userEmailInput = $("#userEmail"),
-            dateOfBirthInput = $("#dateOfBirthInput");
+            dateOfBirthInput = $("#dateOfBirthInput"),
+            genderInput = $("#genterWrapper"),
+            userPhoneInput = $("#userNumber"),
+            subjectsInput = $("#subjectsInput"),
+            hobbyInput = $("#hobbiesWrapper"),
+            filePathInput = $("#uploadPicture"),
+            addressInput = $("#currentAddress"),
+            stateClickInput = $("#state"),
+            stateInput = $("#stateCity-wrapper"),
+            cityClickInput = $("#city"),
+            cityInput = $("#stateCity-wrapper"),
+            registerFormClickInput = $("#submit");
 
     public RegistrationPageFaker openPage() {
         open("/automation-practice-form");
@@ -60,14 +71,14 @@ public class RegistrationPageFaker {
     }
 
     public RegistrationPageFaker setGender(String gender) {
-        $("#genterWrapper").$(byText(gender)).click();
+        genderInput.$(byText(gender)).click();
 
         return this;
 
     }
 
     public RegistrationPageFaker setUserPhone(String userPhone) {
-        $("#userNumber").setValue(userPhone);
+        userPhoneInput.setValue(userPhone);
 
         return this;
 
@@ -82,51 +93,51 @@ public class RegistrationPageFaker {
     }
 
     public RegistrationPageFaker setSubjects(String subjects) {
-        $("#subjectsInput").setValue(subjects).pressEnter();
+        subjectsInput.setValue(subjects).pressEnter();
 
         return this;
 
     }
 
     public RegistrationPageFaker setHobby(String hobby) {
-        $("#hobbiesWrapper").$(byText(hobby)).click();
+        hobbyInput.$(byText(hobby)).click();
 
         return this;
 
     }
 
     public RegistrationPageFaker setUploadImage(String filePath) {
-        $("#uploadPicture").uploadFromClasspath(filePath);
+        filePathInput.uploadFromClasspath(filePath);
 
         return this;
 
     }
 
     public RegistrationPageFaker setAddress(String address) {
-        $("#currentAddress").setValue(address);
+        addressInput.setValue(address);
 
         return this;
 
     }
 
     public RegistrationPageFaker setState(String state) {
-        $("#state").click();
-        $("#stateCity-wrapper").$(byText(state)).click();
+        stateClickInput.click();
+        stateInput.$(byText(state)).click();
 
         return this;
 
     }
 
     public RegistrationPageFaker setCity(String city) {
-        $("#city").click();
-        $("#stateCity-wrapper").$(byText(city)).click();
+        cityClickInput.click();
+        cityInput.$(byText(city)).click();
 
         return this;
 
     }
 
     public void registerForm() {
-        $("#submit").click();
+        registerFormClickInput.click();
 
     }
 

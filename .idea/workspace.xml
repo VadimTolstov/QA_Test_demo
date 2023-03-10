@@ -4,24 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8ca49211-4b62-4967-b6e7-619f44041bba" name="Changes" comment="4l">
-      <change afterPath="$PROJECT_DIR$/src/test/java/hw_8/RegistrationWithFakerTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/hw_8/TestBaseFaker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/hw_8/pages/RegistrationPageFaker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/hw_8/pages/components/CalendarComponent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/hw_8/pages/components/RegistrationResultsModal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/hw_8/utils/DataGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/hw_8/utils/RandomUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/hw_8/utils/StudentData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="8ca49211-4b62-4967-b6e7-619f44041bba" name="Changes" comment="HW_8">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/hw_6/RegistrationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hw_7/RegistrationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/hw_6/RegistrationWithPageObjectsTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hw_7/RegistrationWithPageObjectsTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/hw_6/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hw_7/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/hw_6/pages/RegistrationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hw_7/pages/RegistrationPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/hw_6/pages/components/CalendarComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hw_7/pages/components/CalendarComponent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/hw_6/pages/components/RegistrationResultsModal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hw_7/pages/components/RegistrationResultsModal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hw_8/RegistrationWithFakerTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hw_8/RegistrationWithFakerTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hw_8/TestBaseFaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hw_8/TestBaseFaker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hw_8/pages/RegistrationPageFaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hw_8/pages/RegistrationPageFaker.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -267,7 +254,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678090337643</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="HW_8">
+      <created>1678433226081</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1678433226081</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -286,7 +280,8 @@
     <MESSAGE value="2l" />
     <MESSAGE value="3l" />
     <MESSAGE value="4l" />
-    <option name="LAST_COMMIT_MESSAGE" value="4l" />
+    <MESSAGE value="HW_8" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW_8" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
