@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8ca49211-4b62-4967-b6e7-619f44041bba" name="Changes" comment="HW_8 V1.1">
+    <list default="true" id="8ca49211-4b62-4967-b6e7-619f44041bba" name="Changes" comment="HW_8 V1.2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/hw_8/utils/DataGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hw_8/utils/DataGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/hw_8/utils/RandomUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hw_8/utils/RandomUtils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +31,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -48,20 +47,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/program/IntelliJ IDEA Community Edition 2022.2.2/Proect/QA_Test_demo&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.17&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;copyright&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "last_opened_file_path": "D:/program/IntelliJ IDEA Community Edition 2022.2.2/Proect/HW_3",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.17",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "copyright"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\program\IntelliJ IDEA Community Edition 2022.2.2\Proect\QA_Test_demo\src\test\java\hw_8" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="testZd" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="hw_8.utils" />
@@ -69,32 +76,29 @@
       <recent name="hw_6" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.RegistrationWithFakerTests">
-    <configuration name="DataGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hw_8.utils.DataGenerator" />
-      <module name="QA_Test_demo.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hw_8.utils.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RandomUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hw_8.utils.RandomUtils" />
-      <module name="QA_Test_demo.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hw_8.utils.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+  <component name="RunManager" selected="Gradle.TestAssertions">
+    <configuration name="CheckingFormTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;hw_3.CheckingFormTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
     </configuration>
     <configuration name="RegistrationWithFakerTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -119,7 +123,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="RegistrationWithFakerTests.fillFormTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TestAssertions" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -132,7 +136,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;hw_8.RegistrationWithFakerTests.fillFormTest&quot;" />
+            <option value="&quot;hw_4.TestAssertions&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -142,7 +146,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="RegistrationWithPageObjectsTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="zdTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -155,7 +159,30 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;hw_6.RegistrationWithPageObjectsTests&quot;" />
+            <option value="&quot;testZd.zdTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="zdTest.stringGet" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;testZd.zdTest.stringGet&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -167,11 +194,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.TestAssertions" />
+        <item itemvalue="Gradle.CheckingFormTest" />
+        <item itemvalue="Gradle.zdTest" />
+        <item itemvalue="Gradle.zdTest.stringGet" />
         <item itemvalue="Gradle.RegistrationWithFakerTests" />
-        <item itemvalue="Gradle.RegistrationWithFakerTests.fillFormTest" />
-        <item itemvalue="Application.DataGenerator" />
-        <item itemvalue="Application.RandomUtils" />
-        <item itemvalue="Gradle.RegistrationWithPageObjectsTests" />
       </list>
     </recent_temporary>
   </component>
@@ -275,7 +302,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678446772923</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="HW_8 V1.2">
+      <created>1678515284488</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1678515284488</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -297,7 +331,8 @@
     <MESSAGE value="HW_8" />
     <MESSAGE value="HW_8`" />
     <MESSAGE value="HW_8 V1.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW_8 V1.1" />
+    <MESSAGE value="HW_8 V1.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW_8 V1.2" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
