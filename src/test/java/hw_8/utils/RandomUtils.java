@@ -4,6 +4,7 @@ import com.github.javafaker.Faker;
 
 import java.security.SecureRandom;
 import java.text.SimpleDateFormat;
+import java.util.Random;
 import java.util.concurrent.ThreadLocalRandom;
 
 ///Просто скопировал, не использую
@@ -49,6 +50,11 @@ public class RandomUtils {
 
     public static String getRandomEmail() {
         return getRandomString(10) + "@qa.guru";
+    }
+
+    public static String getRndValueArr(String[] arr) {
+        int rnd = new Random().nextInt(arr.length);
+        return arr[rnd];
     }
 
 

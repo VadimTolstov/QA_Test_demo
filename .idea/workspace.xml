@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8ca49211-4b62-4967-b6e7-619f44041bba" name="Changes" comment="HW_8`">
+    <list default="true" id="8ca49211-4b62-4967-b6e7-619f44041bba" name="Changes" comment="HW_8 V1.1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/hw_8/RegistrationWithFakerTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hw_8/RegistrationWithFakerTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/hw_8/TestBaseFaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hw_8/TestBaseFaker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/hw_8/pages/RegistrationPageFaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hw_8/pages/RegistrationPageFaker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/hw_8/pages/components/RegistrationResultsModal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hw_8/pages/components/RegistrationResultsModal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hw_8/utils/DataGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hw_8/utils/DataGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hw_8/utils/RandomUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hw_8/utils/RandomUtils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +64,7 @@
       <recent name="D:\program\IntelliJ IDEA Community Edition 2022.2.2\Proect\QA_Test_demo\src\test\java\hw_8" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="hw_8.utils" />
       <recent name="hw_8" />
       <recent name="hw_6" />
     </key>
@@ -269,7 +268,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678434855365</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="HW_8 V1.1">
+      <created>1678446772923</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1678446772923</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -290,7 +296,8 @@
     <MESSAGE value="4l" />
     <MESSAGE value="HW_8" />
     <MESSAGE value="HW_8`" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW_8`" />
+    <MESSAGE value="HW_8 V1.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW_8 V1.1" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
