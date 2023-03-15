@@ -1,11 +1,9 @@
 package ru.tolstov.hw_9;
 
 import java.util.ArrayList;
-import java.util.LinkedList;
 import java.util.List;
-import java.util.Queue;
 
-class TheList {
+class TheArrayList {
     public static void main(String[] args) {
         List<String> stringList = new ArrayList<>();
         System.out.println("Это  ArrayList ");
@@ -31,7 +29,7 @@ class TheList {
     }
 
     static void removeList(List<String> list, Object o) {
-        list.remove((String) o);
+        System.out.println(list.remove((String) o));
 
     }
 
