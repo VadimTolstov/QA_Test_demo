@@ -1,4 +1,4 @@
-package ru.tolstov.hw_9;
+package ru.tolstov.hw_9_1;
 
 import java.util.LinkedList;
 import java.util.Queue;

@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8ca49211-4b62-4967-b6e7-619f44041bba" name="Changes" comment="HW_9 V0.3">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/tolstov/hw_9/TheTreeMap.java" afterDir="false" />
+    <list default="true" id="8ca49211-4b62-4967-b6e7-619f44041bba" name="Changes" comment="HW_9 V0.7">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/tolstov/hw_9/TheLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/tolstov/hw_9/TheLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/tolstov/hw_9/TheArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/tolstov/hw_9_1/TheArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/tolstov/hw_9/TheLinkedHashSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/tolstov/hw_9_1/TheLinkedHashSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/tolstov/hw_9/TheLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/tolstov/hw_9_1/TheLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/tolstov/hw_9/TheTreeMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/tolstov/hw_9_1/TheTreeMap.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,11 +96,11 @@
       </method>
     </configuration>
     <configuration name="TheArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.tolstov.hw_9.TheArrayList" />
+      <option name="MAIN_CLASS_NAME" value="ru.tolstov.hw_9_1.TheArrayList" />
       <module name="QA_Test_demo.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.tolstov.hw_9.*" />
+          <option name="PATTERN" value="ru.tolstov.hw_9_1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,11 +109,11 @@
       </method>
     </configuration>
     <configuration name="TheLinkedHashSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.tolstov.hw_9.TheLinkedHashSet" />
+      <option name="MAIN_CLASS_NAME" value="ru.tolstov.hw_9_1.TheLinkedHashSet" />
       <module name="QA_Test_demo.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.tolstov.hw_9.*" />
+          <option name="PATTERN" value="ru.tolstov.hw_9_1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,11 +122,11 @@
       </method>
     </configuration>
     <configuration name="TheLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.tolstov.hw_9.TheLinkedList" />
+      <option name="MAIN_CLASS_NAME" value="ru.tolstov.hw_9_1.TheLinkedList" />
       <module name="QA_Test_demo.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.tolstov.hw_9.TheLinkedList" />
+          <option name="PATTERN" value="ru.tolstov.hw_9_1.TheLinkedList" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,11 +135,11 @@
       </method>
     </configuration>
     <configuration name="TheTreeMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.tolstov.hw_9.TheTreeMap" />
+      <option name="MAIN_CLASS_NAME" value="ru.tolstov.hw_9_1.TheTreeMap" />
       <module name="QA_Test_demo.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.tolstov.hw_9.*" />
+          <option name="PATTERN" value="ru.tolstov.hw_9_1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -283,7 +285,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678897908873</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="HW_9 V0.7">
+      <created>1678963524457</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1678963524457</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -307,7 +316,8 @@
     <MESSAGE value="HW_8 V1.1" />
     <MESSAGE value="HW_8 V1.2" />
     <MESSAGE value="HW_9 V0.3" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW_9 V0.3" />
+    <MESSAGE value="HW_9 V0.7" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW_9 V0.7" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
