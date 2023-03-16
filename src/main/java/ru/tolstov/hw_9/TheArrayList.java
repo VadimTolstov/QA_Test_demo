@@ -29,12 +29,12 @@ class TheArrayList {
     }
 
     static void removeList(List<String> list, Object o) {
-        System.out.println(list.remove((String) o));
+        System.out.println("Элемент удален? " + list.remove((String) o));
 
     }
 
     static void containsList(List<String> list, Object o) {
-        System.out.println(list.contains(o));
+        System.out.println("Элемент найден? " + list.contains(o));
 
     }
 }

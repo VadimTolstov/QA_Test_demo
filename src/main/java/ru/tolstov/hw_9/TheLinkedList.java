@@ -29,12 +29,12 @@ class TheLinkedList {
     }
 
     static void removeList(Queue<String> list, Object o) {
-        list.remove((String) o);
+        System.out.println("Элемент удален? " + list.remove((String) o));
 
     }
 
     static void containsList(Queue<String> list, Object o) {
-        System.out.println(list.contains(o));
+        System.out.println("Элемент найден? " + list.contains(o));
 
     }
 }

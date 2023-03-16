@@ -33,12 +33,12 @@ class TheLinkedHashSet {
     }
 
     static void removeSet(Set<String> hashSet, Object o) {
-        System.out.println(hashSet.remove((String) o));
+        System.out.println("Элемент удален ? " + hashSet.remove((String) o));
 
     }
 
     static void containsSet(Set<String> hashSet, Object o) {
-        System.out.println(hashSet.contains(o));
+        System.out.println("Элемент найден? " + hashSet.contains(o));
 
     }
 }
