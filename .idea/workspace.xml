@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8ca49211-4b62-4967-b6e7-619f44041bba" name="Changes" comment="HW_9 V0.7">
+      <change afterPath="$PROJECT_DIR$/src/test/java/hw_9/SteamParameterizedTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hw_9/annotations/Regress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hw_9/annotations/Smoke.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/testdata_hw_9/steamDisplayingDescriptionGameText.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/tolstov/hw_9/TheArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/tolstov/hw_9_1/TheArrayList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/tolstov/hw_9/TheLinkedHashSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/tolstov/hw_9_1/TheLinkedHashSet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/tolstov/hw_9/TheLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/tolstov/hw_9_1/TheLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/tolstov/hw_9/TheTreeMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/tolstov/hw_9_1/TheTreeMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +28,17 @@
         <task path="$PROJECT_DIR$">
           <activation />
         </task>
-        <projects_view />
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="QA_Test_demo" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
       </state>
     </system>
   </component>
@@ -35,6 +46,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
+        <option value="AnnotationType" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -57,7 +70,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/program/IntelliJ IDEA Community Edition 2022.2.2/Proect/new&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/program/IntelliJ IDEA Community Edition 2022.2.2/Proect/QA_Test_demo&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.17&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
@@ -65,6 +78,9 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="hw_9" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\program\IntelliJ IDEA Community Edition 2022.2.2\Proect\QA_Test_demo\src\test\java\hw_8" />
     </key>
@@ -81,79 +97,129 @@
       <recent name="hw_6" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TheTreeMap">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.tolstov.hw_6.Main" />
-      <module name="QA_Test_demo.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.tolstov.hw_6.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+  <component name="RunManager" selected="Gradle.SteamParameterizedTests">
+    <configuration name="SimpleTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;hw_9.lecture.SimpleTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
     </configuration>
-    <configuration name="TheArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.tolstov.hw_9_1.TheArrayList" />
-      <module name="QA_Test_demo.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.tolstov.hw_9_1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="SteamParameterizedTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;hw_9.SteamParameterizedTests&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
     </configuration>
-    <configuration name="TheLinkedHashSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.tolstov.hw_9_1.TheLinkedHashSet" />
-      <module name="QA_Test_demo.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.tolstov.hw_9_1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="SteamParameterizedTests.steamDisplayingDescriptionGameText1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;hw_9.SteamParameterizedTests.steamDisplayingDescriptionGameText1&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
     </configuration>
-    <configuration name="TheLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.tolstov.hw_9_1.TheLinkedList" />
-      <module name="QA_Test_demo.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.tolstov.hw_9_1.TheLinkedList" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="SteamParameterizedTests.steamDisplayingDescriptionGameText3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;hw_9.SteamParameterizedTests.steamDisplayingDescriptionGameText3&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
     </configuration>
-    <configuration name="TheTreeMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.tolstov.hw_9_1.TheTreeMap" />
-      <module name="QA_Test_demo.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.tolstov.hw_9_1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="SteamParameterizedTests.steamSearchTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;hw_9.SteamParameterizedTests.steamSearchTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TheTreeMap" />
-        <item itemvalue="Application.TheLinkedHashSet" />
-        <item itemvalue="Application.TheArrayList" />
-        <item itemvalue="Application.TheLinkedList" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Gradle.SteamParameterizedTests" />
+        <item itemvalue="Gradle.SteamParameterizedTests.steamDisplayingDescriptionGameText3" />
+        <item itemvalue="Gradle.SteamParameterizedTests.steamDisplayingDescriptionGameText1" />
+        <item itemvalue="Gradle.SteamParameterizedTests.steamSearchTest" />
+        <item itemvalue="Gradle.SimpleTest" />
       </list>
     </recent_temporary>
   </component>
@@ -292,7 +358,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678963524457</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="HW_9 V0.7">
+      <created>1678972913306</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1678972913306</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
