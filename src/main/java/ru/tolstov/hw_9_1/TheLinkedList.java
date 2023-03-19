@@ -25,12 +25,10 @@ class TheLinkedList {
 
     static void addList(Queue<String> list, Object o) {
         list.add((String) o);
-
     }
 
     static void removeList(Queue<String> list, Object o) {
         System.out.println("Элемент удален? " + list.remove((String) o));
-
     }
 
     static void containsList(Queue<String> list, Object o) {

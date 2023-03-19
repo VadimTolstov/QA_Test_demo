@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8ca49211-4b62-4967-b6e7-619f44041bba" name="Changes" comment="HW_9 V0.7">
-      <change afterPath="$PROJECT_DIR$/src/test/java/hw_9/SteamParameterizedTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/hw_9/annotations/Regress.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/hw_9/annotations/Smoke.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/testdata_hw_9/steamDisplayingDescriptionGameText.csv" afterDir="false" />
+    <list default="true" id="8ca49211-4b62-4967-b6e7-619f44041bba" name="Changes" comment="HW_9 V1.0">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hw_9/annotations/Blocker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hw_9/annotations/Blocker.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +67,7 @@
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
     &quot;last_opened_file_path&quot;: &quot;D:/program/IntelliJ IDEA Community Edition 2022.2.2/Proect/QA_Test_demo&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.17&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
@@ -97,29 +93,19 @@
       <recent name="hw_6" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.SteamParameterizedTests">
-    <configuration name="SimpleTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;hw_9.lecture.SimpleTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.tolstov.hw_9_1.lecture.Main" />
+      <module name="QA_Test_demo.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.tolstov.hw_9_1.lecture.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="SteamParameterizedTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -215,11 +201,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Gradle.SteamParameterizedTests" />
         <item itemvalue="Gradle.SteamParameterizedTests.steamDisplayingDescriptionGameText3" />
         <item itemvalue="Gradle.SteamParameterizedTests.steamDisplayingDescriptionGameText1" />
         <item itemvalue="Gradle.SteamParameterizedTests.steamSearchTest" />
-        <item itemvalue="Gradle.SimpleTest" />
       </list>
     </recent_temporary>
   </component>
@@ -365,7 +351,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678972913306</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="HW_9 V1.0">
+      <created>1679227855370</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1679227855370</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -390,7 +383,8 @@
     <MESSAGE value="HW_8 V1.2" />
     <MESSAGE value="HW_9 V0.3" />
     <MESSAGE value="HW_9 V0.7" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW_9 V0.7" />
+    <MESSAGE value="HW_9 V1.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW_9 V1.0" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

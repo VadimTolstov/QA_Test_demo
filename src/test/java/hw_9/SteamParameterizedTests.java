@@ -28,7 +28,6 @@ public class SteamParameterizedTests {
     void setUp() {
         Configuration.browserSize = "1920x1080";
         Selenide.open("https://store.steampowered.com/");
-
     }
 
 
@@ -42,8 +41,6 @@ public class SteamParameterizedTests {
         $("[placeholder=поиск]").setValue(gameData).pressEnter();
         $(".title").click();
         $("#appHubAppName").shouldHave(text(gameData));
-
-
     }
 
 
@@ -65,8 +62,6 @@ public class SteamParameterizedTests {
         $("[placeholder=поиск]").setValue(gameData).pressEnter();
         $(".title").click();
         $(".game_description_snippet").shouldHave(Condition.text(expectedText));
-
-
     }
 
 
@@ -79,7 +74,6 @@ public class SteamParameterizedTests {
         $("[placeholder=поиск]").setValue(gameData).pressEnter();
         $(".title").click();
         $(".game_description_snippet").shouldHave(Condition.text(expectedText));
-
     }
 
 
@@ -104,7 +98,6 @@ public class SteamParameterizedTests {
         $("[placeholder=поиск]").setValue(gameData).pressEnter();
         $(".title").click();
         $$(".game_area_features_list_ctn a").filter(visible).shouldHave(texts(expectedButtons));
-
     }
 
 
@@ -118,12 +111,9 @@ public class SteamParameterizedTests {
             @Tag("BLOCKER"),
             @Tag("WEB")
     })
-
     void steamSearchTest2(String gameData) {
         $("[placeholder=поиск]").setValue(gameData).pressEnter();
         $(".title").click();
         $("#appHubAppName").shouldHave(text(gameData));
     }
-
-
 }

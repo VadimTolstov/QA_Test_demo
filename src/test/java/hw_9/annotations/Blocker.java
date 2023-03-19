@@ -7,8 +7,8 @@ import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
-@Retention(RetentionPolicy.RUNTIME)
-@Target(ElementType.METHOD)
-@Tag("BLOCKER")
+@Retention(RetentionPolicy.RUNTIME)//Эту анатацию сможет прочитать джеюнит в рантайм
+@Target(ElementType.METHOD)//Эту анатацию можно ставить над методом
+@Tag("BLOCKER")//Пишем название своей анатации
 public @interface Blocker {
 }
