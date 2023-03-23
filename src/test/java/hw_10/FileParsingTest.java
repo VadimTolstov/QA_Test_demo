@@ -34,6 +34,19 @@ public class FileParsingTest {
                         Assertions.assertEquals("Adobe InDesign CC 2015 (Macintosh)", pdf.creator,
                                 "pdf parsed failed");
                     }
+                }
+            }
+        }
+    }
+
+    @Test
+    void zippedXlsxfParseTest() throws Exception {
+        try (InputStream is = cl.getResourceAsStream("testdata_hw_10/zipFile.zip");
+             ZipInputStream zis = new ZipInputStream(is)) {
+            ZipEntry entry;
+
+            while ((entry = zis.getNextEntry()) != null) {
+                switch (Files.getFileExtension(entry.getName())) {
                     case "xlsx" -> {
                         XLS xls = new XLS(zis);
                         Assertions.assertTrue(
@@ -41,6 +54,19 @@ public class FileParsingTest {
                                         .startsWith("John"),
                                 "xlsx parsed failed");
                     }
+                }
+            }
+        }
+    }
+
+    @Test
+    void zippedCsvfParseTest() throws Exception {
+        try (InputStream is = cl.getResourceAsStream("testdata_hw_10/zipFile.zip");
+             ZipInputStream zis = new ZipInputStream(is)) {
+            ZipEntry entry;
+
+            while ((entry = zis.getNextEntry()) != null) {
+                switch (Files.getFileExtension(entry.getName())) {
                     case "csv" -> {
                         CSVReader reader = new CSVReader(new InputStreamReader(zis));
                         List<String[]> content = reader.readAll();
@@ -59,8 +85,9 @@ public class FileParsingTest {
              InputStreamReader isr = new InputStreamReader(is)) {
             ParserJson parserJson = mapper.readValue(isr, ParserJson.class);
 
-            Assertions.assertEquals("12-03-2022", parserJson.date);
+            Assertions.assertEquals("DVGUPS", parserJson.university);
             Assertions.assertEquals("Vadim", parserJson.friend.get(0).name);
+            Assertions.assertEquals(789434713, parserJson.friend.get(1).number);
         }
     }
 }

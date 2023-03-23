@@ -1,10 +1,6 @@
 {
-  "array": [
-    1,
-    2,
-    3
-  ],
-  "friend": [
+  "university": "DVGUPS",
+  "friends": [
     {
       "name": "Vadim",
       "email": "Vadim@gmail.com",
@@ -13,21 +9,20 @@
         "Football",
         "Beer"
       ],
-      "address": null
+      "address": null,
+      "number": 3242453425
     },
     {
-      "name": "none",
-      "email": "none",
-      "devId": "none",
-      "hobbies": [],
-      "address": null
+      "name": "Sergei",
+      "email": "Sergei@gmail.com",
+      "devId": "asd214423",
+      "hobbies": [
+        "Fishing",
+        "Beer",
+        "Hunting"
+      ],
+      "address": null,
+      "number": 789434713
     }
-  ],
-  "id": true,
-  "color": "gold",
-  "date": "12-03-2022",
-  "number": 123,
-  "boolean": true,
-  "null": null,
-  "string": "Hello World"
+  ]
 }
