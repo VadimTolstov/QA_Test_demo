@@ -5,8 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8ca49211-4b62-4967-b6e7-619f44041bba" name="Changes" comment="HW_9 V1.0">
+      <change afterPath="$PROJECT_DIR$/src/test/java/hw_10/FileParsingTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hw_10/ParserJson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/testdata_hw_10/file.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/testdata_hw_10/lecture/hqdefault.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/testdata_hw_10/sample2.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/testdata_hw_10/zipFilesl.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/hw_9/annotations/Blocker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hw_9/annotations/Blocker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,54 +67,53 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/program/IntelliJ IDEA Community Edition 2022.2.2/Proect/QA_Test_demo&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.17&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "last_opened_file_path": "D:/program/IntelliJ IDEA Community Edition 2022.2.2/Proect/QA_Test_demo/src/test/resources/testdata_hw_10/lecture",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.17",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="hw_9" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\program\IntelliJ IDEA Community Edition 2022.2.2\Proect\QA_Test_demo\src\test\resources\testdata_hw_10\lecture" />
+      <recent name="D:\program\IntelliJ IDEA Community Edition 2022.2.2\Proect\QA_Test_demo\src\test\resources\testdata_hw_10" />
+      <recent name="D:\program\IntelliJ IDEA Community Edition 2022.2.2\Proect\QA_Test_demo\src\test\resources\testdata_hw_10\lecture\expectedfiles" />
+      <recent name="D:\program\IntelliJ IDEA Community Edition 2022.2.2\Proect\QA_Test_demo\src\test\resources" />
       <recent name="D:\program\IntelliJ IDEA Community Edition 2022.2.2\Proect\QA_Test_demo\src\test\java\hw_8" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\program\IntelliJ IDEA Community Edition 2022.2.2\Proect\QA_Test_demo\src\test\resources\testdata_hw_10" />
+      <recent name="D:\program\IntelliJ IDEA Community Edition 2022.2.2\Proect\QA_Test_demo\src\test\resources\testdata_hw_10\lecture\expectedfiles" />
+      <recent name="D:\program\IntelliJ IDEA Community Edition 2022.2.2\Proect\QA_Test_demo\src\test\resources" />
+      <recent name="D:\program\IntelliJ IDEA Community Edition 2022.2.2\Proect\QA_Test_demo\src\test\resources\testdata_hw_10\lecture" />
+      <recent name="D:\program\IntelliJ IDEA Community Edition 2022.2.2\Proect\QA_Test_demo\src\test\resources\pictures" />
+    </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="testZd" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="hw_10" />
       <recent name="ru.tolstov.hw_9" />
       <recent name="hw_8.utils" />
       <recent name="hw_8" />
       <recent name="hw_6" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.tolstov.hw_9_1.lecture.Main" />
-      <module name="QA_Test_demo.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.tolstov.hw_9_1.lecture.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SteamParameterizedTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.FileParsingTest">
+    <configuration name="FileParsingTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -120,7 +126,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;hw_9.SteamParameterizedTests&quot;" />
+            <option value="&quot;hw_10.FileParsingTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -130,7 +136,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="SteamParameterizedTests.steamDisplayingDescriptionGameText1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="FileParsingTest1.csvParseTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -143,7 +149,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;hw_9.SteamParameterizedTests.steamDisplayingDescriptionGameText1&quot;" />
+            <option value="&quot;hw_10.lecture.parsing.FileParsingTest1.csvParseTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -153,7 +159,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="SteamParameterizedTests.steamDisplayingDescriptionGameText3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="FileParsingTest1.pdfParseTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -166,7 +172,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;hw_9.SteamParameterizedTests.steamDisplayingDescriptionGameText3&quot;" />
+            <option value="&quot;hw_10.lecture.parsing.FileParsingTest1.pdfParseTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -176,7 +182,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="SteamParameterizedTests.steamSearchTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="FileParsingTest1.zipTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -189,7 +195,30 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;hw_9.SteamParameterizedTests.steamSearchTest&quot;" />
+            <option value="&quot;hw_10.lecture.parsing.FileParsingTest1.zipTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="FileParsingTest.zippedPdfParseTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;hw_10.FileParsingTest.zippedPdfParseTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -201,11 +230,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Gradle.SteamParameterizedTests" />
-        <item itemvalue="Gradle.SteamParameterizedTests.steamDisplayingDescriptionGameText3" />
-        <item itemvalue="Gradle.SteamParameterizedTests.steamDisplayingDescriptionGameText1" />
-        <item itemvalue="Gradle.SteamParameterizedTests.steamSearchTest" />
+        <item itemvalue="Gradle.FileParsingTest" />
+        <item itemvalue="Gradle.FileParsingTest.zippedPdfParseTest" />
+        <item itemvalue="Gradle.FileParsingTest1.csvParseTest" />
+        <item itemvalue="Gradle.FileParsingTest1.pdfParseTest" />
+        <item itemvalue="Gradle.FileParsingTest1.zipTest" />
       </list>
     </recent_temporary>
   </component>
@@ -358,7 +387,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679227855370</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="HW_9 V1.0">
+      <created>1679240258458</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1679240258458</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -385,6 +421,13 @@
     <MESSAGE value="HW_9 V0.7" />
     <MESSAGE value="HW_9 V1.0" />
     <option name="LAST_COMMIT_MESSAGE" value="HW_9 V1.0" />
+  </component>
+  <component name="XDebuggerManager">
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="com.codeborne.pdftest.PDF" memberName="author" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

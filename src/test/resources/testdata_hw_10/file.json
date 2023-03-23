@@ -1,0 +1,33 @@
+{
+  "array": [
+    1,
+    2,
+    3
+  ],
+  "friend": [
+    {
+      "name": "Vadim",
+      "email": "Vadim@gmail.com",
+      "devId": "1232sadac",
+      "hobbies": [
+        "Football",
+        "Beer"
+      ],
+      "address": null
+    },
+    {
+      "name": "none",
+      "email": "none",
+      "devId": "none",
+      "hobbies": [],
+      "address": null
+    }
+  ],
+  "id": true,
+  "color": "gold",
+  "date": "12-03-2022",
+  "number": 123,
+  "boolean": true,
+  "null": null,
+  "string": "Hello World"
+}

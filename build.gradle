@@ -17,11 +17,17 @@ repositories {
 
 dependencies {
     implementation 'org.jetbrains:annotations:20.1.0'
-    testImplementation (
+    testImplementation(
             "com.codeborne:selenide:6.12.3",
             "org.junit.jupiter:junit-jupiter:5.9.2",
             "org.slf4j:slf4j-simple:2.0.6",
-            "com.github.javafaker:javafaker:1.0.2")
+            "com.github.javafaker:javafaker:1.0.2",
+            "com.codeborne:pdf-test:1.5.0",
+            "com.codeborne:xls-test:1.4.3",
+            "com.opencsv:opencsv:5.7.1",
+            "com.google.code.gson:gson:2.10.1",
+            "com.fasterxml.jackson.core:jackson-databind:2.13.1",
+            "com.fasterxml.jackson.core:jackson-core:2.13.1")
     // testImplementation 'org.testng:testng:7.1.0'
 }
 
