@@ -86,8 +86,8 @@ public class FileParsingTest {
             ParserJson parserJson = mapper.readValue(isr, ParserJson.class);
 
             Assertions.assertEquals("DVGUPS", parserJson.university);
-            Assertions.assertEquals("Vadim", parserJson.friend.get(0).name);
-            Assertions.assertEquals(789434713, parserJson.friend.get(1).number);
+            Assertions.assertEquals("Vadim", parserJson.friends.get(0).name);
+            Assertions.assertEquals(789434713, parserJson.friends.get(1).number);
         }
     }
 }

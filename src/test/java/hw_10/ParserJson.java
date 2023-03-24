@@ -4,15 +4,15 @@ import java.util.List;
 
 public class ParserJson {
     public String university;
-    public List<Friend> friend;
+    public List<Friends> friends;
 
-    public static class Friend{
+    public static class Friends {
         public String name;
         public String email;
         public String devId;
         public List<String> hobbies;
         public String address;
-        public Integer number;
+        public Long number;
     }
 
 }
