@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8ca49211-4b62-4967-b6e7-619f44041bba" name="Changes" comment="HW_10 V1.2">
-      <change afterPath="$PROJECT_DIR$/src/test/java/hw_11_Allur/IssueGoogleTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/hw_11_Allur/WebStep.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/workflows/test.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/test.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="8ca49211-4b62-4967-b6e7-619f44041bba" name="Changes" comment="HW_11_Allure" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -432,7 +426,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679839090328</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="HW_11_Allure">
+      <created>1679851770094</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1679851770094</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -460,7 +461,8 @@
     <MESSAGE value="HW_9 V1.0" />
     <MESSAGE value="HW_10 V1.0" />
     <MESSAGE value="HW_10 V1.2" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW_10 V1.2" />
+    <MESSAGE value="HW_11_Allure" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW_11_Allure" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>
