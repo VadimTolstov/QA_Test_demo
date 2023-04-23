@@ -4,7 +4,41 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8ca49211-4b62-4967-b6e7-619f44041bba" name="Changes" comment="HW_11_Allure" />
+    <list default="true" id="8ca49211-4b62-4967-b6e7-619f44041bba" name="Changes" comment="HW_11_Allure">
+      <change afterPath="$PROJECT_DIR$/src/test/java/hw_12_Jenkins/RegistrationWithPageObjectsFakerTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hw_12_Jenkins/Regress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hw_12_Jenkins/TestBaseFaker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hw_12_Jenkins/helpers/Attach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hw_12_Jenkins/pages/RegistrationPageFaker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hw_12_Jenkins/pages/components/CalendarComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hw_12_Jenkins/pages/components/RegistrationResultsModal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hw_12_Jenkins/utils/DataGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hw_12_Jenkins/utils/RandomUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hw_12_Jenkins/utils/StudentData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hw_13_Jenkins_Property/RegistrationWithPageObjectsFakerTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hw_13_Jenkins_Property/Regress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hw_13_Jenkins_Property/TestBaseFaker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hw_13_Jenkins_Property/helpers/Attach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hw_13_Jenkins_Property/lecture/NegativeTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hw_13_Jenkins_Property/lecture/PositiveTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hw_13_Jenkins_Property/lecture/SkippedTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hw_13_Jenkins_Property/pages/RegistrationPageFaker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hw_13_Jenkins_Property/pages/components/CalendarComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hw_13_Jenkins_Property/pages/components/RegistrationResultsModal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hw_13_Jenkins_Property/utils/DataGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hw_13_Jenkins_Property/utils/RandomUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hw_13_Jenkins_Property/utils/StudentData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hw_18_rest_api_Assured/lecture/ReqresInTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hw_18_rest_api_Assured/lecture/SelenoidTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hw_18_rest_api_Assured/sdas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hw_3/lecture/JUnitExamples.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/hw_18/status-scheme-responce.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hw_10/FileParsingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hw_10_File/FileParsingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hw_10/ParserJson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hw_10_File/ParserJson.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -77,13 +111,16 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "last_opened_file_path": "D:/code/HW_3",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "D:/program/IntelliJIDEA/Proect/QA_Test_demo/src/test/resources",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.17",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -91,21 +128,21 @@
       <recent name="hw_9" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\program\IntelliJ IDEA Community Edition 2022.2.2\Proect\QA_Test_demo\src\test\resources\testdata_hw_10\lecture" />
-      <recent name="D:\program\IntelliJ IDEA Community Edition 2022.2.2\Proect\QA_Test_demo\src\test\resources\testdata_hw_10" />
-      <recent name="D:\program\IntelliJ IDEA Community Edition 2022.2.2\Proect\QA_Test_demo\src\test\resources\testdata_hw_10\lecture\expectedfiles" />
-      <recent name="D:\program\IntelliJ IDEA Community Edition 2022.2.2\Proect\QA_Test_demo\src\test\resources" />
-      <recent name="D:\program\IntelliJ IDEA Community Edition 2022.2.2\Proect\QA_Test_demo\src\test\java\hw_8" />
+      <recent name="D:\program\IntelliJIDEA\Proect\QA_Test_demo\src\test\resources" />
+      <recent name="D:\program\IntelliJIDEA\Proect\QA_Test_demo\src\test\resources\hw_18" />
+      <recent name="D:\program\IntelliJIDEA\Proect\QA_Test_demo\src\test\java\hw_18_rest_api_Assured\lecture" />
+      <recent name="D:\program\IntelliJIDEA\Proect\QA_Test_demo\src\test\java" />
+      <recent name="D:\program\IntelliJIDEA\Proect\QA_Test_demo\src\test\java\hw_3" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\program\IntelliJIDEA\Proect\QA_Test_demo\src\test\resources\hw_18" />
+      <recent name="D:\program\IntelliJIDEA\Proect\QA_Test_demo\src\test\resources" />
       <recent name="D:\program\IntelliJ IDEA Community Edition 2022.2.2\Proect\QA_Test_demo\src\test\resources\testdata_hw_10" />
       <recent name="D:\program\IntelliJ IDEA Community Edition 2022.2.2\Proect\QA_Test_demo\src\test\resources\testdata_hw_10\lecture\expectedfiles" />
       <recent name="D:\program\IntelliJ IDEA Community Edition 2022.2.2\Proect\QA_Test_demo\src\test\resources" />
-      <recent name="D:\program\IntelliJ IDEA Community Edition 2022.2.2\Proect\QA_Test_demo\src\test\resources\testdata_hw_10\lecture" />
-      <recent name="D:\program\IntelliJ IDEA Community Edition 2022.2.2\Proect\QA_Test_demo\src\test\resources\pictures" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="testZd" />
@@ -118,8 +155,8 @@
       <recent name="hw_6" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.QA_Test_demo [allureServe]">
-    <configuration name="AttachmentsTest.testLambdaAttachments" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.ReqresTests (2)">
+    <configuration name="ReqresInApiTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -132,7 +169,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;hw_11_Allur.lectture.AttachmentsTest.testLambdaAttachments&quot;" />
+            <option value="&quot;hw_18_rest_api_Assured.lecture.ReqresInApiTests&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -140,9 +177,10 @@
       <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="IssueGoogleTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ReqresTest2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -155,7 +193,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;hw_11_Allur.IssueGoogleTest&quot;" />
+            <option value="&quot;hw_18_rest_api_Assured.lecture.ReqresTest2&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -163,9 +201,10 @@
       <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="IssueGoogleTest.testLambda" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ReqresTests (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -178,7 +217,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;hw_11_Allur.IssueGoogleTest.testLambda&quot;" />
+            <option value="&quot;in.reqres.tests.ReqresTests&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -186,9 +225,10 @@
       <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="IssueGoogleTest.testStep" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ReqresTests (2)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -201,7 +241,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;hw_11_Allur.IssueGoogleTest.testStep&quot;" />
+            <option value="&quot;hw_18_rest_api_Assured.lecture.in.reqres.tests.ReqresTests&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -209,36 +249,40 @@
       <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="QA_Test_demo [allureServe]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ReqresTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
+        <option name="scriptParameters" value="" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value="allureServe" />
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;hw_18_rest_api_Assured.lecture.reqres.tests.ReqresTests&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.QA_Test_demo [allureServe]" />
-        <item itemvalue="Gradle.IssueGoogleTest" />
-        <item itemvalue="Gradle.IssueGoogleTest.testLambda" />
-        <item itemvalue="Gradle.IssueGoogleTest.testStep" />
-        <item itemvalue="Gradle.AttachmentsTest.testLambdaAttachments" />
+        <item itemvalue="Gradle.ReqresTests (2)" />
+        <item itemvalue="Gradle.ReqresTests (1)" />
+        <item itemvalue="Gradle.ReqresTests" />
+        <item itemvalue="Gradle.ReqresTest2" />
+        <item itemvalue="Gradle.ReqresInApiTests" />
       </list>
     </recent_temporary>
   </component>
@@ -250,6 +294,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677568635126</updated>
+      <workItem from="1680675101705" duration="103000" />
     </task>
     <task id="LOCAL-00001" summary="1l">
       <created>1677568830009</created>
@@ -433,8 +478,18 @@
       <option name="project" value="LOCAL" />
       <updated>1679851770094</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="HW_11_Allure">
+      <created>1679852034631</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1679852034631</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">

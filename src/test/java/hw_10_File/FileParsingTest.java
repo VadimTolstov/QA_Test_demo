@@ -1,4 +1,4 @@
-package hw_10;
+package hw_10_File;
 
 import com.codeborne.pdftest.PDF;
 import com.codeborne.xlstest.XLS;
